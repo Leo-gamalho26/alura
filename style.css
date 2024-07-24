@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde escuro */
+}
+
+#btnDecodificar {
+    background-color: #f44336; /* Vermelho */
+}
+
+#btnDecodificar:hover {
+    background-color: #da2919; /* Vermelho escuro */
+}
+
+textarea#textoSaida {
+    background-color: #eee;
+}
